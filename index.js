@@ -3,8 +3,8 @@ const cors = require('cors')
 const app = express()
 const bodyParser = require("body-parser")
 const jsonParser = bodyParser.json()
+require("./db.js")
 let port;
-
 
 //const port = process.env.PORT || 4000.
 if(!process.env.PORT){
