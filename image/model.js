@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 const sequelize = require('../db')
 
-const Teeth = sequelize.define('teeth', {
+const Teeth = sequelize.define('image', {
     url: {
         type: Sequelize.INTEGER,
         allowNull: false
@@ -13,7 +13,7 @@ const Teeth = sequelize.define('teeth', {
     }
 }, {
         timestamps: false,
-        tableName: 'teeth'
+        tableName: 'image'
     })
    
 module.exports = Teeth
