@@ -5,6 +5,8 @@ const bodyParser = require("body-parser")
 const jsonParser = bodyParser.json()
 let port;
 
+
+//const port = process.env.PORT || 4000.
 if(!process.env.PORT){
      port = 5000
 }else{
