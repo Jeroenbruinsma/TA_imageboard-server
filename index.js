@@ -4,6 +4,7 @@ const app = express()
 const bodyParser = require("body-parser")
 const jsonParser = bodyParser.json()
 require("./db.js")
+const image = require('./image/model')
 let port;
 
 //const port = process.env.PORT || 4000.
